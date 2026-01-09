@@ -50,12 +50,12 @@ This notebook performs comprehensive data pre-processing, feature engineering, a
 - Analyzed variable contributions to the extracted dimensions
 
 ### 11. Clustering
+- Used Elbow Method and chose **k ≈ 3 clusters**
 - Performed **K-Means clustering** on FAMD components
-- Determined optimal number of clusters using:
-  - Elbow method
+- Evaluated using clustering metrics:
   - Silhouette score
   - Davies–Bouldin index
-- Optimal solution identified at **k ≈ 3 clusters**
+
 
 ## Exploratory Data Analysis (EDA)
 
