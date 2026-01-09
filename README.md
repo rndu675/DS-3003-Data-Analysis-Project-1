@@ -9,16 +9,16 @@ This notebook performs comprehensive data pre-processing, feature engineering, a
 - Imported standard data science libraries (pandas, numpy, sklearn, matplotlib, seaborn, prince)
 
 ### 2. Data Loading
-- Downloaded dataset from Kaggle: *Podcast Listening Time Prediction Dataset*
+- Fetched dataset from Kaggle: *Podcast Listening Time Prediction Dataset*
 - Loaded `podcast_dataset.csv`
 
 ### 3. Initial Data Exploration
 - Basic overview (head, info, describe, categorical summary)
-- Standardized column names (lowercase)
 
 ## Data Pre-processing
 
 ### 4. Data Formatting
+- Standardized column names (lowercase)
 - Standardized categorical values (lowercase and whitespace stripping)
 
 ### 5. Removing Duplicates
